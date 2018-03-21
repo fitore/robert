@@ -1,0 +1,47 @@
+body {
+    font-family: 'PT Serif', serif;
+    line-height: 2rem;
+    padding: 1rem 0 0 0;
+}
+
+.wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+
+.content-box-heading {
+    font-size: 1.75rem;
+}
+
+.logo {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.byline {
+    margin-top: 1rem;
+}
+
+.site-header {
+
+}
+
+.site-footer {
+    background-color: #EEE;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.content-box {
+    margin: 3rem 0;
+}
+
+a {
+    color: #0000FF;
+}
+
+a:hover {
+    text-decoration: none;
+}
