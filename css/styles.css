@@ -1,12 +1,12 @@
 body {
     font-family: 'PT Serif', serif;
     line-height: 2rem;
-    padding: 1rem 0 0 0;
 }
 
 .wrapper {
-    max-width: 60rem;
+    max-width: 50rem;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 
