@@ -16,11 +16,13 @@ body {
 
 .logo {
     font-size: 3rem;
-    margin-bottom: 0;
+    line-height: 3.5rem;
+    margin: 0.5rem 0 0;
 }
 
 .byline {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    font-style: italic;
 }
 
 .site-header {
@@ -44,4 +46,15 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+@media (max-width: 25rem) {
+    .logo {
+        font-size: 2rem;
+        line-height: 2.25rem;
+    }
+
+    .content-box-heading {
+        margin: 0.5rem 0;
+    }
 }
