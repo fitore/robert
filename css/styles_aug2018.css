@@ -29,6 +29,7 @@ body {
 }
 
 .content-box--heading {
+    clear: both;
     font-size: 1.75rem;
 }
 
@@ -54,9 +55,11 @@ body {
 }
 
 .byline {
-    margin: 0.5rem 0;
+    color: #777;
     font-style: italic;
     font-size: 1rem;
+    font-weight: normal;
+    margin: 0.5rem 0;
 }
 
 .site-header {
@@ -64,11 +67,16 @@ body {
 }
 
 .site-footer {
-    background-color: #f5f8fa;
+    background-color: #f5f5f5;
+    color: #777;
     font-size: 0.9rem;
     margin-top: 1rem;
     padding: 1rem;
     text-align: center;
+}
+
+.author-info {
+    min-height: 100px;
 }
 
 .author-image {
@@ -96,10 +104,11 @@ body {
 
 a {
     color: #1F98C7;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @media (max-width: 25rem) {
@@ -113,7 +122,9 @@ a:hover {
         line-height: 2.25rem;
     }
 
-    .content-box-heading {
-        margin: 0.5rem 0;
+    .content-box--about,
+    .content-box--sidebar {
+        margin: 2rem 0 0 0;
     }
+
 }
