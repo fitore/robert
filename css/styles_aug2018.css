@@ -19,7 +19,7 @@ body {
 }
 
 .content-box--about {
-    flex: 2 1 30rem;
+    flex: 2 1 33rem;
     margin: 2rem 3rem 2rem 0;
 }
 
@@ -32,12 +32,19 @@ body {
     font-size: 1.75rem;
 }
 
+.content-box--sidebar .content-box--heading {
+    margin-top: 3rem;
+}
+
 .content-box--about .content-box--heading {
     margin-top: 0;
 }
 
 .content-box--list {
-    padding-left: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .logo {
@@ -65,9 +72,26 @@ body {
 }
 
 .author-image {
-    border-radius: 10px;
-    margin-top: 5px;
-    width: 90%;
+    border-radius: 50px;
+    margin: -2px 1rem 0 0;
+    width: 100px;
+    float: left;
+    margin-right: 1rem;
+}
+
+.book-list-link {
+    align-items: center;
+    display: flex;
+    margin: 0 0 2rem 0;
+}
+
+.book-title {
+    display: block;
+}
+
+.book-thumbnail {
+    margin-right: 1rem;
+    width: 72px;
 }
 
 a {
